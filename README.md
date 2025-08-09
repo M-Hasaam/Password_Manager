@@ -1,12 +1,70 @@
-# React + Vite
+# **Password Manager**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and secure password manager built with **React** (frontend) and **Node.js/Express** (backend).  
+This app allows you to store, view, copy, and manage your passwords with a clean UI and responsive design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 **Tech Stack**
+**Frontend**
+- React + Vite
+- Tailwind CSS
+- React Toastify
 
-## Expanding the ESLint configuration
+**Backend**
+- Node.js
+- Express
+- MongoDB (for storage)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📂 **Features**
+- Add, view, edit, and delete passwords.
+- Copy password to clipboard with one click.
+- Server connection status notification.
+- Responsive design for desktop, tablet, and mobile.
+
+---
+
+## 🛠 **Setup Instructions**
+### **1. Clone the repository**
+```bash
+git clone https://github.com/M-Hasaam/Password_Manager.git
+cd Password_Manager
+```
+
+### **2. Install dependencies**
+**Frontend**
+```bash
+npm install
+```
+**Backend**
+```bash
+cd Backend
+npm install
+```
+
+### **3. Set up environment variables**
+Create a `.env` file inside `Backend/`:
+```env
+MONGODB_URI=your_mongodb_connection_string
+PORT=3000
+```
+
+### **4. Run the app**
+**Backend**
+```bash
+cd Backend
+node server.js
+```
+**Frontend**
+```bash
+npm run dev
+```
+
+---
+
+## 📷 **Preview**
+*(Add screenshots or GIFs of the UI here)*
+
+---
