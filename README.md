@@ -1,5 +1,26 @@
 # **Password Manager**
 
+
+
+## 📷 **Preview**
+
+<table>
+<tr>
+<td>
+  <!-- Left: Demo GIF -->
+  <img src="preview/Preview.gif" alt="App Demo" height="500">
+</td>
+<td>
+  <!-- Right: VS Code (top) + MongoDB (bottom) -->
+  <img src="preview/VSCODE.png" alt="VS Code Screenshot" height="250"><br>
+  <img src="preview/MONGO_DB.png" alt="MongoDB Screenshot" height="250">
+</td>
+</tr>
+</table>
+
+
+---
+
 A simple and secure password manager built with **React** (frontend) and **Node.js/Express** (backend).  
 This app allows you to store, view, copy, and manage your passwords with a clean UI and responsive design.
 
@@ -61,10 +82,5 @@ node server.js
 ```bash
 npm run dev
 ```
-
----
-
-## 📷 **Preview**
-*(Add screenshots or GIFs of the UI here)*
 
 ---
